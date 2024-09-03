@@ -31,7 +31,7 @@ public void removeTask(int index) {
             task[i] = task[i + 1];
         }
         task[--numOfTasks] = null; 
-        System.out.println("Task removed.");
+        System.out.println("Task removed successfully.");
     }
 
 	
