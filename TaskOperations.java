@@ -22,6 +22,8 @@ public class TaskOperations {
             System.out.println("Task cannot be added.");
         }
     }
+	
+	//remove task
 public void removeTask(int index) {
         if (index < 0 || index >= numOfTasks) {
             System.out.println("Invalid task index.");
